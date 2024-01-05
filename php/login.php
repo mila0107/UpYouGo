@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         if (mysqli_num_rows($result) > 0) {
             // Login bem-sucedido para aluno
-            header("Location: ../html/vagas.html");
+            header("Location: /html/vagas.html");
             exit();
         } else {
             // Se chegou aqui, o login falhou

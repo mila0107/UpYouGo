@@ -1,4 +1,3 @@
-
 /*Para caso o utilizador escolha a opção "Esqueci a senha"*/
 function enviarEmail() {
   // Obtenha o valor do campo de email
