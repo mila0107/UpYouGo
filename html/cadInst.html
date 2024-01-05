@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadEst.css">
+    <script type="text/javascript" src="/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <title>UP YOU GO</title>
+</head>
+
+<body>
+    <section id="main">
+        <div id="main_left">
+            <img class="icon_main" src="/imagens/marca.jpeg" alt="">
+            <a class="txt_main_left" href="home.html">Inicio</a>
+        </div>
+        <div id="main_right">
+            <a class="txt_main_right" href="/html/formInst.html">Login</a>
+            <a class="txt_main_right" href="/html/cadInst.html">Cadastro</a>
+        </div>
+    </section>
+
+    <section id="login">
+        <div class="login-container">
+            <h2>Formulário de Cadastro</h2>
+    
+            <form action="php/register.php" method="post">
+    
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="name" id="nome" name="nome" placeholder="Insira o nome da Instituição" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Insira o email organizacional" required>
+                </div>
+     
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Insira a Senha" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha2">Repita a Senha:</label>
+                    <input type="password" id="senha2" name="senha2" placeholder="Repita a Senha" required>
+                </div>
+    
+                <div class="form-group">
+                    <button type="submit" onclick="verificarSenha()">Cadastrar</button>
+                </div>
+    
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        &copy; 2023 Up you Go. Todos os direitos reservados.
+    </footer>
+
+
+    
+</body>
+
+</html>

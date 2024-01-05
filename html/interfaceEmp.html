@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/interfaceEmp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <title>Empresa</title>
+</head>
+<body>
+
+    <section id="main">
+        <div id="main_left">
+        <a href="/html/home.html" class="icon_main"><img class="icon_main" src="/imagens/marca.jpeg" alt=""></a>
+        <a class="txt_main_left" href="home.html">Inicio</a>
+        </div>
+
+        <div id="main_right">
+            <a class="txt_main_right" href="/html/formEmp.html">Login</a>
+            <a class="txt_main_right" href="/html/cadEmp.html">Cadastro</a>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Cadastrar Nova Vaga</h2>
+        <form id="cadastroForm">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section class="vagas-section">
+        <h2>Lista de Vagas Cadastradas</h2>
+        <div class="vaga">
+            <!-- Conteúdo da vaga aqui -->
+        </div>
+        <!-- Adicione mais blocos de vaga conforme necessário -->
+    </section>
+
+    <footer>
+        &copy; 2023 Up you Go. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>

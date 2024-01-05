@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: 
+    #0c0b24;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:
+    #36a1bb;
+    opacity: 0.9;
+}
+
+.icon_main{
+    width: 35px;
+    height: auto;
+    padding: 2px;
+    margin-right: 10%;
+}
+
+#main_left{
+    display: flex;
+}
+
+.txt_main_left{
+    text-decoration: none;
+    color: white;
+    font-family: 'Kanit', sans-serif;    
+    font-weight: bolder;
+}
+
+.txt_main_right{
+    text-decoration: none;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+}
+/* ////////////////////////////////////////////////////////// */
+
+body{
+    background: url(/imagens/school.jpg) repeat-x;
+        animation: slideBackground 60s linear infinite;
+        background-size: cover;
+}
+@keyframes slideBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+.form-section,
+.alunos-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #fff;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea, input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: -1px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
